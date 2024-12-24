@@ -1,0 +1,61 @@
+# Build artifacts
+bin/
+obj/
+
+# Visual Studio specific files
+.vs/
+*.user
+*.suo
+
+# Rider specific files
+.idea/
+*.sln.iml
+
+# Logs and Database
+*.log
+*.ldf
+*.mdf
+*.pidb
+
+# Temporary files
+*.tmp
+*.temp
+*.TMP
+*.bak
+*.old
+*.swp
+*.swo
+*~
+**/*~.nib
+
+# Dependency directories
+node_modules/
+packages/
+bower_components/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Configuration and secret files
+appsettings.json
+appsettings.Development.json
+
+# Generated files
+*.generated.cs
+
+# Publish artifacts
+wwwroot/
+*.Publish.xml
+
+# JetBrains Rider
+.idea/
+
+# macOS files
+*.DS_Store
+
+# Logs
+*.log
+
+# GitHub Pages
+!.github/
