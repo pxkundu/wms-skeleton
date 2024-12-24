@@ -1,0 +1,25 @@
+{
+    "ec2": {
+      "instanceType": "t2.micro",
+      "amiId": "ami-0abcdef1234567890",
+      "keyName": "your-key-pair",
+      "securityGroup": {
+        "allowSSH": true,
+        "allowHTTP": true,
+        "allowCustomPorts": [5000]
+      }
+    },
+    "s3": {
+      "bucketName": "your-s3-bucket-name",
+      "region": "us-east-1"
+    },
+    "iam": {
+      "roles": [
+        {
+          "name": "BackendInstanceRole",
+          "policies": ["AmazonS3FullAccess", "AmazonEC2ReadOnlyAccess"]
+        }
+      ]
+    }
+  }
+  
