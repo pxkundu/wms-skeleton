@@ -2,7 +2,6 @@
 
 **Path**: `/frontend/README.md`
 
-```markdown
 # Warehouse Management System (Frontend)
 
 The frontend application for the Warehouse Management System (WMS) provides a Human-Machine Interface (HMI) for visualizing IoT metrics and managing inventory. Built with React, it integrates seamlessly with the backend APIs to deliver an interactive user experience.

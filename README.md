@@ -227,7 +227,6 @@ A demonstration project showcasing core concepts and functionalities of a Wareho
   }
 ]
 ```
-
 ---
 
 #### **Add IoT Data**
@@ -252,7 +251,6 @@ A demonstration project showcasing core concepts and functionalities of a Wareho
   "timestamp": "2024-12-23T12:15:00"
 }
 ```
-
 ---
 
 ## **Deployment Instructions**
