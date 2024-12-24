@@ -1,8 +1,6 @@
 # wms-skeleton
 Warehouse Management System (WMS/WCS) Demonstration
 
-### Detailed README for the WMS/WCS Demo Project
-
 ---
 
 # **Warehouse Management System (WMS/WCS) Demo**
@@ -46,7 +44,7 @@ A demonstration project showcasing core concepts and functionalities of a Wareho
 ```plaintext
 /wms-skeleton
 ├── /src
-│   ├── /backend
+│   ├── /Backend
 │   │   ├── Controllers
 │   │   │   ├── AuthController.cs
 │   │   │   ├── InventoryController.cs
@@ -87,13 +85,13 @@ A demonstration project showcasing core concepts and functionalities of a Wareho
 ### **Steps to Run Locally**
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/WMS-WCS-Demo.git
-   cd WMS-WCS-Demo
+   git clone https://github.com/pxkundu/wms-skeleton.git
+   cd wms-skeleton
    ```
 
 2. Navigate to the backend folder:
    ```bash
-   cd src/backend
+   cd src/Backend
    ```
 
 3. Restore dependencies:
